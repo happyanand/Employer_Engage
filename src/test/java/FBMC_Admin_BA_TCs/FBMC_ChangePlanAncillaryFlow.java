@@ -93,8 +93,5 @@ public class FBMC_ChangePlanAncillaryFlow extends FBMC_Admin_BA_AllScenarios {
 		Assert.assertNotEquals(enrollmentSummaryPage.VerifyoldPlanName(enrollmentSummaryPage.oldPlanname), enrollmentSummaryPage.VerifynewPlanName(enrollmentSummaryPage.newPlanname),"Assertion Passed");
 		//Download the Summary document
 		enrollmentSummaryPage.downloadSummaryDocument();
-		
-		
-		
 	}
 }
