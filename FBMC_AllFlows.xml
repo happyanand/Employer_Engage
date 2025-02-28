@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- FBMC All Flows-->
+<suite name="MySuite" parallel="none">
+    <suite-files>
+        
+		<suite-file path="FBMC_ADMIN_BA_TCS_testng.xml"/>
+		<suite-file path="FBMC_BillingAndPayments_testng.xml"/>
+		<suite-file path="FBMC_Business_Automation_Rules_testng.xml"/>
+		<suite-file path="FBMC_Content_Management_testng.xml"/>
+		<suite-file path="FBMC_Employee_TCs_testng.xml"/>
+		<suite-file path="FBMC_RC_Admin_BA_TCs_testng.xml"/>
+		<suite-file path="FBMC_RC_Employee_TCs_testng.xml"/>
+		<suite-file path="FBMC_User_Admin_Registration_TCs_testng.xml"/>
+		<suite-file path="Smoke_TestCases.xml"/>
+
+    </suite-files>
+</suite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- IHA All Flows-->
+<suite name="MySuite" parallel="none">
+    <suite-files>
+        
+		<suite-file path="IHA_Admin_BA_TCs_testng.xml"/>
+		<suite-file path="IHA_Broker_Management_testng.xml"/>
+		<suite-file path="IHA_Content_Management_testng.xml"/>
+		<suite-file path="IHA_Transactions_testng.xml"/>
+		<suite-file path="IHA_Employee_TCs_testng.xml"/>
+		<suite-file path="IHA_RC_Admin_BA_TCs_testng.xml"/>
+		<!--suite-file path="IHA_RC_Employee_TCs_testng.xml"/-->
+		<suite-file path="IHA_User_Admin_Registration_TCs_testng.xml"/>
+
+    </suite-files>
+</suite>

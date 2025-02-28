@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- Speridian All Flows-->
+<suite name="MySuite" parallel="none">
+    <suite-files>
+        
+		<suite-file path="Speridian_ADMIN_BA_TCS_testng.xml"/>
+		<suite-file path="Speridian_Content_Management_TCs_testng.xml"/>
+		<suite-file path="Speridian_Employee_TCs_testng.xml"/>
+		<suite-file path="Speridian_RC_Admin_BA_TCs_testng.xml"/>
+		<suite-file path="Speridian_RC_Employee_TCs_testng.xml"/>
+		<suite-file path="Speridian_User_Admin_Registration_TCs_testng.xml"/>
+
+    </suite-files>
+</suite>
